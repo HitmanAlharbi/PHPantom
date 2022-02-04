@@ -1,6 +1,6 @@
 # PHPantom
 
-- PHPantom is a PHP class to monitor the dangerous called functions in the code 
+- PHPantom is a PHP class to monitor the dangerous functions in the code 
 
 - It print the code of the called function
 

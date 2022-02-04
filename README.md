@@ -52,4 +52,8 @@ $phpantom = new PHPantom(["system", "exec", "eval"]);
 
 # Youtube video tutorial [Arabic]
 
-- TO BE ADDED ...
+- https://www.youtube.com/watch?v=KvIBfn56P3U
+
+# Twitter
+
+- https://twitter.com/hitmanf15

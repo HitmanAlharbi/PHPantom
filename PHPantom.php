@@ -36,7 +36,7 @@ class PHPantom{
         // Maybe the user wants to pass specific functions
         if(!empty($functions) && is_array($functions)){
             // Set the dangerous functions passed by user
-            $this->$dangerous = $functions;
+            $this->dangerous = $functions;
         }
         // Start functions monitor
         xdebug_start_function_monitor($this->dangerous);

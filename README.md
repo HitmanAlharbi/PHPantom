@@ -2,11 +2,11 @@
 
 - PHPantom is a PHP class to monitor the dangerous functions in the code 
 
-- It print the code of the called function
+- It prints the code line of the called function
 
 - It checks if the line has an input or not (Not accurate 100%)
 
-- It's based on Xdebug extension, so you need to install first
+- PHPantom is based on "Xdebug extension", so you need to install first ..
 
 ![image](https://user-images.githubusercontent.com/36328177/152566608-044f1e02-0145-46f1-b815-654eab40b013.png)
 

@@ -54,7 +54,7 @@ class PHPantom{
     // Output function *TODO some refactoring ...*
     function output(){
         // Open HTML tags
-        echo "<div style='background-color: white; color: black;'><center></br><h1>PHPantom by HitmanAlharbi</h1></br><h2 style='color: red'>Monitored functions</h2></br><table style='width: 60%;'><tr><td style='width: 10%; font-weight: bold;'>Function</td><td style='width: 35%; font-weight: bold;'>File path</td><td style='width: 10%; font-weight: bold;'>Line number</td><td style='width: 15%; font-weight: bold;'>Input in the line</td><td style='font-weight: bold;'>PHP code</td></tr>";
+        echo "<div style='direction:ltr; background-color: white; color: black;'><center></br><h1>PHPantom by HitmanAlharbi</h1></br><h2 style='color: red'>Monitored functions</h2></br><table style='width: 60%;'><tr><td style='width: 10%; font-weight: bold;'>Function</td><td style='width: 35%; font-weight: bold;'>File path</td><td style='width: 10%; font-weight: bold;'>Line number</td><td style='width: 15%; font-weight: bold;'>Input in the line</td><td style='font-weight: bold;'>PHP code</td></tr>";
         // Get the monitored functions
         $monitored = xdebug_get_monitored_functions();
         // Remove the duplicates (Multiple calls)
